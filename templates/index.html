@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./static/reset.css">
+    <link rel="stylesheet" href="./static/index.css">
+    <title>Password Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="head-title">
+        <h1>Password Generator</h1>
+        <p>Generate a secure password.</p>
+    </div>
+
+    <form action="/" method="POST">
+        <div class="generate">
+            <h2>{{password}}</h2>
+            <div class="butt">
+                    <button type="submit">Generate</button>
+                </div>
+        </div>
+
+        <div class="customize">
+            <div class="custom-title">
+                <h3>Customize password:</h3>
+                <hr>
+            </div>
+
+            <div class="change">
+                <div class="text-field">
+                    Password Length:<input class="text-field__input" type="text" name="text" value="8">
+                </div>
+
+                <div class="chckbox">
+
+                    <label class="checkbox">
+                        <input type="checkbox" name="uppercase" id="box-1" checked="checked">
+                        <label for="box-1">Enable uppercase letters</label>
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" name="digit" id="box-2" checked="checked">
+                        <label for="box-2">Enable digits</label>
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" name="special" id="box-3">
+                        <label for="box-3">Enable special symbols</label>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </form>
+
+</div>
+</div>
+</body>
+</html>

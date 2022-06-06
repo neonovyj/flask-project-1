@@ -1,0 +1,23 @@
+html { background: url("../static/image/Back.png") no-repeat center center/cover; min-height: 100%; font-family: "Open Sans", sans-serif; color: #D7D7D7; }
+html .container { display: grid; justify-content: center; max-width: 1170px; margin: 0 auto; }
+html .container .head-title { font-family: "Special Elite"; }
+html .container .head-title h1 { font-size: 57.33px; line-height: 57px; text-align: center; padding-top: 96px; padding-bottom: 8px; }
+html .container .head-title p { font-size: 16px; line-height: 16px; text-align: center; opacity: 75%; }
+html .container .generate { margin-top: 120px; min-width: 710px; min-height: 56px; display: flex; flex-direction: row; justify-content: space-between; padding-top: 10px; padding-bottom: 10px; padding-left: 24px; padding-right: 24px; background: rgba(255, 255, 255, 0.24); border-radius: 8px; }
+html .container .generate h2 { font-weight: normal; font-size: 25.00px; margin: auto 0; }
+html .container .generate .butt button { font-family: "Special Elite"; color: #D7D7D7; width: 184px; height: 42px; font-size: 19.20px; background-color: #1E1F24; display: block; border: 2px solid #2ecc71; outline: none; border-radius: 8px; transitin: 0.25s; cursor: pointer; }
+html .container .generate .butt button:hover { background: #2ecc71; }
+html .container .customize { margin-top: 16px; min-width: 710px; min-height: 168px; position: relative; padding: 8px 24px; background: rgba(255, 255, 255, 0.24); border-radius: 8px; position: relative; }
+html .container .customize .custom-title { padding-bottom: 16px; }
+html .container .customize .custom-title h3 { font-weight: normal; font-size: 16px; margin-bottom: 3px; }
+html .container .customize .custom-title hr { height: 1px; width: 160px; background-color: #D7D7D7; }
+html .container .customize .change { display: flex; justify-content: space-between; }
+html .container .customize .change .text-field { display: flex; align-items: center; }
+html .container .customize .change .text-field .text-field__input { margin-left: 16px; text-align: center; background-color: #fff; border-radius: 8px; border: 1px solid #c8c8c8; font-size: 23.04px; width: 75px; height: 50px; }
+html .container .customize .chckbox { display: flex; flex-direction: column; }
+html .container .customize .chckbox .checkbox { margin-bottom: 32px; }
+html .container .customize .chckbox .checkbox input[type="checkbox"] { display: none; }
+html .container .customize .chckbox .checkbox input[type="checkbox"] + label { display: block; position: relative; padding-left: 35px; margin-bottom: 20px; font: 14px/20px 'Open Sans', Arial, sans-serif; color: white; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; }
+html .container .customize .chckbox .checkbox input[type="checkbox"] + label:last-child { margin-bottom: 0; }
+html .container .customize .chckbox .checkbox input[type="checkbox"] + label:before { content: ''; display: block; width: 20px; height: 20px; border: 3px solid white; position: absolute; left: 0; top: 0; opacity: .6; -webkit-transition: all .12s, border-color .08s; transition: all .12s, border-color .08s; }
+html .container .customize .chckbox .checkbox input[type="checkbox"]:checked + label:before { width: 10px; top: -5px; left: 5px; border-radius: 0; opacity: 1; border-top-color: transparent; border-left-color: transparent; -webkit-transform: rotate(45deg); transform: rotate(45deg); }
